@@ -353,7 +353,7 @@ day_3_challenge_1 = () => {
     console.log(tree_count);
 };
 
-day_3_challenge_2 = () => 
+day_3_challenge_2 = () =>
 {
     const lines = document.getElementsByTagName('pre')[0].innerHTML;
     const input = lines.split('\n').map(line => line.split(''));
